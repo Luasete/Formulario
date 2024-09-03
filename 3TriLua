@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulários</h1> </br>
 
+    <h2>Tipos de Tag Input(Entrada) </br>
+
+        ▶ O tipo é dado através do atributo type</h2>
+
+        <p>
+            ▶ Tipos da tag input</br>
+
+            ▶ Text – quando se deseja digitar letras, números, etc </br> Exemplo: </br>
+            <label for="">Nome:</label>
+            <input type="text"></br>
+
+            ▶ Radio – quando se deseja oferecer opções para escolha única. </br> Exemplo: </br>
+        <form>
+            <label> Sexo: </label>
+            <input type="radio" value="Masculino" name="sexo"> Masculino
+            <input type="radio" value="Feminino" name="sexo"> Feminino <br>
+        </form>
+
+            ▶ Checkbox – múltiplas escolhas </br> Exemplo: </br>
+            <form action=""><label>Onde estuda:</label> <br>
+                <input type="checkbox" name="onde_estuda" value="IFRN"> IFRN <br>
+                <input type="checkbox" name="onde_estuda" value="UFRN"> UFRN <br>
+                <input type="checkbox" name="onde_estuda" value="UERN"> UERN <br>
+                <input type="checkbox" name="onde_estuda" value="Outro"> Outro...
+            </form>
+
+            ▶ Password – campo de senha </br> Exemplo: </br>
+
+            <label> Login: </label>
+            <input type="text" name="login"><br>
+            <label> Senha: </label>
+            <input type="password" name="senha"><br>
+
+
+            ▶ Button – botão </br>
+
+            ▶ Submit – botão para envio de dados </br>
+
+            ▶ Reset – limpa todos os campos do formulário </br>
+            <button type="submit">Enviar </button>
+            <button type="reset"> Limpar </button> </br>
+
+            ▶ Textarea – cria um
+                elemento de texto com mais de
+                uma
+                linha de digitação </br> Exemplo: </br>
+
+            <form action=""><textarea name="observacoes" rows="4" cols="20">
+                Texto inicial qualquer...
+               </textarea> </form>
+
+            ▶ Elementos Select – select cria um controle de menu na página web <br>
+                select e select delimita o bloco de opções (cria a caixinha do
+                menu) <br>
+                option e option cria cada uma das opçõess </br> Exemplo: </br>
+                <form action="processa_dados.html" method="GET">
+
+                    <select>
+                    <option> Nova Cruz </option>
+                    <option> Serrinha </option>
+                    <option> Montanhas </option>
+                    <option> Brejinho</option>
+                    <option> Monte Alegre</option>
+                    <option> Natal</option>
+                    </select>
+
+                    </form>
+
+            ▶ Elementos Fieldset e Legend – Criam uma borda que contorna o
+                formulário e uma legenda, respectivamente </br> Exemplo: </br>
+                <form action=“processa_dados.html” method=“GET” >
+                    <fieldset>
+                    <legend>Exemplo de Formulário </legend>
+                    ...
+                    <select>
+                    <option> Nova Cruz </option>
+                    <option> Serrinha </option>
+                    <option> Montanhas </option>
+                    <option> Brejinho</option>
+                    <option> Monte Alegre</option>
+                    <option> Natal</option>
+                    </select>
+                    ...
+                    </fieldset>
+                    </form>
+
+
+        
+</body>
+</html>
