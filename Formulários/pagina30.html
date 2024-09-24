@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<fieldset>
+
+    <Legend>Primeiro exemplo de formulário</Legend>
+
+    <label for="">Nome: </label><input type="text">
+
+</br>
+
+    <label for="">Sobrenome: </label><input type="text">
+    
+
+<form>
+    <label> Sexo: </label>
+    <input type="radio" value="Masculino" name="sexo"> Masculino
+    <input type="radio" value="Feminino" name="sexo"> Feminino <br>
+</form>
+
+<br>
+
+<label> Login: </label>
+<input type="text" name="login"><br>
+<label> Senha: </label>
+<input type="password" name="senha">
+<br>
+<form action=""><label>Onde estuda:</label> <br>
+    <input type="checkbox" name="onde_estuda" value="IFRN"> IFRN <br>
+    <input type="checkbox" name="onde_estuda" value="UFRN"> UFRN <br>
+    <input type="checkbox" name="onde_estuda" value="UERN"> UERN <br>
+    <input type="checkbox" name="onde_estuda" value="Outro"> Outro...
+</form>
+<form action=""><label>Cidade :</label> <br>
+    <select>
+    <option> Nova Cruz </option>
+    <option> Serrinha </option>
+    <option> Montanhas </option>
+    <option> Brejinho</option>
+    <option> Monte Alegre</option>
+    <option> Natal</option>
+    </select>
+    </form>
+
+</fieldset>
+
+<form action="processa_dados.html" method="GET" >
+    <button type="submit">Enviar </button>
+</form>
+
+
+</body>
+</html>
